@@ -7,12 +7,12 @@
     // using `node cleanUp.js` or copy and paste into a replit
 
 
-// EX 1: I changed nothing here. I see proper use of indentations and brackets. The code ran with no changes.
-function nameQuestion() {
+// EX 1: I changed the function name. Everything else looks good
+function questionName() {
   console.log("Hello, what is your name?")
 }
 
-nameQuestion()
+questionName()
 
 
 // EX 2: I indented lines 20/21, added a semicolon to line 20, and pushed the bracket in 22 to the left. The code ran after changes.
