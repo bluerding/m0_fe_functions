@@ -37,11 +37,11 @@ function makeFreshPesto(){
 makeFreshPesto();
 
 
-//  EX 4: Moved the close parenthesis before the period in line 46
+//  EX 4: Moved the close parenthesis before the period in line 46. Indented 43/44
 // Moved the opening bracket up to 42 and moved the one in 47 to the left. Realinged either 43 or 44, I dont remember which.
 function average(num1, num2) {
-var sum = num1 + num2;
-var avg = sum / 2;
+  var sum = num1 + num2;
+  var avg = sum / 2;
 
 console.log(`the average is: ${avg}`)
 }

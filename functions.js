@@ -18,16 +18,27 @@ function giveRange(company, num1, num2){
     console.log(`Welcome to ${company}. The pay range is ${dif}`)
 }
 giveRange ("My Company", 90000, 65000)
-// 4: Write a function that satifies the following interaction pattern:
+// // 4: Write a function that satifies the following interaction pattern:
+function checkStock(num, item) {
+    if (num >= 4) {
+        console.log(`${item} is stocked`)
+    } else if (num < 4 && num > 0) {
+        console.log(`${item} is running LOW`)
+    }else {
+        console.log(`${item} is OUT of stock`)
+    }
+}
+    
 
-// checkStock(4, "Coffee");
+
+checkStock(4, "Coffee");
 // // => "Coffee is stocked"
 
-// checkStock(3, "Tortillas");
+checkStock(3, "Tortillas");
 // // => "Tortillas - running LOW"
 
-// checkStock(0, "Cheese");
+checkStock(0, "Cheese");
 // // => "Cheese - OUT of stock!"
 
-// checkStock(1, "Salsa");
+checkStock(1, "Salsa");
 // // => "Salsa - running LOW"
